@@ -2,6 +2,7 @@
 
 def highest_student_gpa
   SELECT MAX(gpa) FROM students;
+  binding.pry
 end
 
 def lowest_student_gpa
